@@ -1,0 +1,26 @@
+{
+  "name": "nikopdf",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ニコニコ風にコメントを流せるPDFスライドショー共有サイト。",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js",
+    "test": "node --test test/*.test.js",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makimaki510151/NikoPDF.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38",
+    "trystero": "^0.26.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10",
+    "puppeteer-core": "^24.15.0"
+  }
+}
